@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-black text-">
+  
+  <nav class="flex justify-center gap-8 bg-zinc-800 py-4 text-neutral-50 font-inter">
+    <a href="./index.html">Buttons</a>
+    <a href="./card-component.html">Card</a>
+    <a href="./input-component.html">Input</a>
+    <a href="./tweet-component.html">Tweet</a>
+  </nav>
+  
+  <div class="p-10 ">
+    <div>
+      <button class="w-80 bg-neutral-50 hover:bg-neutral-200 py-2 px-6 rounded-6xl backdrop-blur-xl shadow-3xl gap-2.5 inline-flex justify-center items-center disabled:opacity-50">
+        <div class="font-bold font-inter text-center">Create account</div>
+      </button>
+
+
+      <button class="bg-neutral-50 hover:bg-neutral-200 py-2 px-5 rounded-3xl gap-2.5 inline-flex justify-center items-center">
+        <div class="font-bold font-inter text-sm text-center leading-normal disabled:opacity-50">Follow</div>
+      </button>
+
+      <button disabled class="w-[27.625rem] bg-neutral-50 hover:bg-neutral-200 py-3 px-6 rounded-6xl backdrop-blur-xl shadow-3xl gap-2.5 inline-flex justify-center items-center disabled:opacity-50">
+        <div class="font-bold text-center font-inter">Next</div>
+      </button>
+    </div>
+
+    
+    <div class="mt-10">
+
+      <!-- sign up -->
+      <button class="w-80 shadow-button py-2 px-6 rounded-6xl backdrop-blur-xl border border-twitter-blue border-opacity-24  shadow-3xl">
+          <p class="font-inter font-bold text-twitter-blue ">Sign up</p>
+      </button>
+
+      <!-- following -->
+      <button class="px-4 py-1.5 rounded-3xl shadow-3xl border border-twitter-blue border-opacity-24  backdrop-blur-xl justify-center items-center gap-2.5 inline-flex">
+        <div class="text-neutral-50 text-sm font-bold font-inter">Following</div>
+      </button>
+
+    </div>  
+
+    <div class="my-10">
+      <button class="py-[0.9375rem] px-[5.8125rem] bg-twitter-blue hover:bg-twitter-blue-hover disabled:opacity-50 rounded-full justify-center items-center gap-2.5 inline-flex">
+        <div class="text-center text-neutral-50 text-base font-bold font-inter">Post</div>
+      </button>
+
+      <button disabled class="py-3 px-6 bg-twitter-blue hover:bg-twitter-blue-hover disabled:opacity-50 rounded-full justify-center items-center gap-2.5 inline-flex">
+        <div class="text-center text-neutral-50 text-base font-bold font-inter">Post</div>
+      </button>
+
+      <button class="w-[27.625rem] p-5 bg-twitter-blue hover:bg-twitter-blue-hover disabled:opacity-50 rounded-full justify-center items-center gap-2.5 inline-flex">
+        <div class="text-center text-neutral-50 text-base font-medium font-inter">Post</div>
+      </button>
+
+    </div>
+
+    <!-- feed toggler component -->
+    <div class="w-main pt-5 flex justify-center items-center flex-shrink-0 text-neutral-50 border-b border-neutral-700">
+      <div class=" mr-20 flex justify-center items-center gap-4 flex-col">
+        <button class="peer/forYou font-medium selected:text-neutral-400">For you</button>
+        <div class="w-14 h-[0.1875rem] rounded-full  peer-focus/forYou:bg-twitter-blue"></div>
+      </div>
+      <div class=" ml-20 flex justify-center items-center gap-4 flex-col">
+        <button class="peer/forYou font-medium">Following</button>
+        <div class="w-14 h-[0.1875rem] rounded-full peer-focus/forYou:bg-twitter-blue"></div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  
+</body>
+</html>

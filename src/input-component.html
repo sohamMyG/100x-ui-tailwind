@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-black">
+  
+  <nav class="flex justify-center gap-8 bg-zinc-800 py-4 text-neutral-50 font-inter">
+    <a href="./index.html">Buttons</a>
+    <a href="./card-component.html">Card</a>
+    <a href="./input-component.html">Input</a>
+    <a href="./tweet-component.html">Tweet</a>
+  </nav>
+
+  <div class="p-10 ">
+    
+    <fieldset class=" w-[26.625rem] py-4 px-3 pt-2 
+      rounded-[0.25rem] border border-neutral-500 
+      focus-within:border-twitter-blue group font-inter
+      flex justify-between">
+
+      <legend class="px-1 text-xs font-medium text-neutral-500 
+                    group-focus-within:text-twitter-blue">
+        Label
+      </legend>
+      <input 
+        type="text" 
+        placeholder="Label"
+        class="
+        placeholder:text-neutral-600
+          flex-grow
+          focus:outline-none
+          text-neutral-50 bg-transparent
+          flex items-center"
+        >
+
+        <img src="../public/images/correct.svg" alt="correct" 
+          class="flex-shrink-0 hidden h-6 w-6 group-focus-within:block">
+
+    </fieldset>
+
+
+    <div class="my-16"></div>
+
+    
+    <div class="w-[30.125rem] flex items-center gap-3">
+      <img src="../public/images/user-avatar2.png" alt="user-avatar2"
+        class="w-9 h-9 flex-shrink-0 rounded-full">
+
+      <input type="text" placeholder="What's happening?!"
+        class="py-3 text-neutral-50 placeholder:text-neutral-600 text-xl font-normal font-inter 
+        bg-transparent focus:outline-none focus-within:caret-twitter-blue leading-normal">
+    </div>
+
+
+    <div class="my-16"></div>
+
+
+    <div class="w-[21.75rem] py-[0.625rem] px-4 rounded-full
+     bg-searchbar-fill  focus-within:border-twitter-blue border border-searchbar-fill
+     gap-[0.9375rem] flex items-center flex-shrink-0 group font-inter">
+      
+      <svg class="fill-neutral-500 group-focus-within:fill-twitter-blue" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" >
+        <path d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46108 14.8334 7.70833C14.8334 3.77375 11.643 0.583328 7.70837 0.583328C3.77379 0.583328 0.583374 3.77375 0.583374 7.70833C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2187 15.6235 16.2187C15.7739 16.2187 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70833C1.77087 4.43479 4.43483 1.77083 7.70837 1.77083C10.9819 1.77083 13.6459 4.43479 13.6459 7.70833C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70833Z"/>
+      </svg>      
+        
+      <input type="text" placeholder="Search"
+        class="bg-transparent focus:outline-none 
+        text-neutral-50 text-16 placeholder:text-neutral-600">
+
+    </div>
+
+
+  </div>
+  
+</body>
+</html>
